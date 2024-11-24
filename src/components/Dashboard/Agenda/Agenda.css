@@ -1,0 +1,42 @@
+.calendar{
+    width: 325px;
+    height: auto;
+}
+
+.reminder{
+    width: 325px;
+    height: auto;
+    text-align: center;
+}
+
+.reminder h3{
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+.reminder ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o padding padrão da lista */
+    margin-left: 2.5rem;
+    text-align: left; /* Alinha o conteúdo à esquerda */
+}
+
+.reminder li {
+    display: flex; 
+    align-items: center; 
+    padding: 10px 0; 
+    font-size: 16px; 
+    width: 100%; 
+    white-space: nowrap; /* Evita quebra de linha para manter tudo em uma linha */
+    overflow: hidden; /* Evita que o texto extravase */
+    text-overflow: ellipsis; /* Adiciona reticências se o texto for muito longo */
+}
+
+.reminder input[type="checkbox"] {
+    margin-right: 10px; 
+}
+
+.reminder label {
+    flex: 1; 
+}

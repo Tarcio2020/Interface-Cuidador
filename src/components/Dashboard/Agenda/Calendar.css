@@ -1,0 +1,29 @@
+.custom-calendar {
+    width: 325px;
+    height: 340px;
+    background-color: #1FA383;
+    border-radius: 8px; /* para deixar as bordas arredondadas */
+    padding: 10px;
+    color: white; /* para deixar os textos do calendário brancos */
+  }
+  
+  .custom-calendar .react-calendar__tile {
+    background-color: transparent; /* Para remover o fundo padrão dos dias */
+    color: white;
+  }
+  
+  .custom-calendar .react-calendar__tile--active {
+    background-color: white !important;
+    color: #1FA383 !important;
+  }
+  
+  .custom-calendar .react-calendar__navigation button {
+    color: white;
+  }
+  
+  .custom-calendar .react-calendar__tile--now {
+    background-color: white !important;
+    color: #1FA383 !important;
+    font-weight: bold;
+  }
+  
